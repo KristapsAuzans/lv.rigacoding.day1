@@ -20,7 +20,7 @@ public class Worker {
     private Department PreviousDepartment;
     
     
-    public Worker(String Name, String Family, int DateofBirth, String email, String Phone, Adress Adrese, Department Department, Department previousDepartment){
+    public Worker(String Name, String Family, int DateofBirth, String email, String Phone, Adress Adrese, Department Department, Department PreviousDepartment){
         this.Name = Name;
         this.Family = Family;
         this.DateofBirth = DateofBirth;
